@@ -1,0 +1,383 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: linen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headerleft img{
+    object-fit: contain;
+    height: 50px;
+    margin-right: 100x;
+    border-style: initial;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    position: sticky;
+    display:flex;
+    top:0;
+    z-index:999;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid whitesmoke;
+    padding: 10px;
+    background-color: rgb(48, 48, 156);
+}
+
+.headerleft{
+    display: flex;
+}
+.headerright{
+    display: flex;
+}
+.headermiddlesearch{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color:beige;
+}
+
+.headermiddlesearch input{
+    align-items: flex-start;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    height: 20px;
+    border-style: ridge;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.headeroption{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+.headeroption:hover{
+    color: darkcyan;
+}
+
+.headeroption h3{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headeroptionicon{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.Mainbody{
+    display:flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin: 15px 35px;
+}
+
+.Sidebar{
+    position: sticky;
+    top: 80px;
+    flex:0.2;
+    border-radius: 10px;
+    text-align: center;
+    height:fit-content;
+    margin-left: -50px;
+    margin-right: 25px;
+}
+
+
+
+.Sidebartop{
+    width:180px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.Sidebartopicon{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.Sidebartop h3{
+    color:rgb(48, 48, 156);
+    cursor: pointer;
+}
+.Sidebaroptions{
+    width: 160px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    
+}
+
+
+.Sidebarstats{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    cursor: pointer;
+}
+
+.Sidebarstats:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+}
+
+.Siderbarstats p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.Sidebarstatsnumber{
+    font-weight: bold;
+    color: rgb(48, 48, 156) !important;
+}
+
+.Sidebarbottom{
+    width: 170px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Sidebargroups{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: grey;
+}
+
+.Sidebargroupsnumber{
+    font-weight: bold;
+    color: rgb(48, 48, 156) !important;
+}
+
+.Sidebargroups:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+}
+
+.feed{
+    margin-left: 5px;
+    flex: 0.6;
+    width: 1000px;
+}
+
+.feed hover{
+    background-color: whitesmoke;
+}
+
+.feedinputbox{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+.feedinput{
+    border: 1px solid lightgray;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    padding: 5px;
+    color: gray;
+    padding-left: 10px;
+}
+
+.feedinput form{
+    display:flex;
+    width:100%;
+}
+
+.feedinput form input{
+    border: none;
+    flex:1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feedinput form button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.feedinputs{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedinputoption{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.feedinputoption:hover{
+    color: black;
+}
+
+.Post{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    
+}
+.Postheader{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Postheadericon{
+    font-size: 40px;
+}
+
+.Postinfo p{
+    font-size: 12px;
+    color: gray;
+}
+
+.Postinputoption{
+    display: flex;
+    flex-direction: row;
+}
+
+.Postinput{
+    display: flex;
+    flex-direction: row;
+}
+
+.Postbody{
+    margin-left: 48px;
+}
+
+.Postinputoption{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-right: 45px;
+}
+
+.Postinputoption:hover{
+    color: rgb(48, 48, 156);
+    cursor: pointer;
+}
+
+.widgets{
+    position: sticky;
+    top:80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    padding-left: 15px;
+}
+
+.widgetsnotifheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.widgetsnotifications{
+    display: flex;
+    padding:10px ;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.widgetsnotifications:hover{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.widgetsnotifications p{
+    padding-left: 10px;
+}
+
+.widgetsfriend h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.widgetsfriend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.widgetsfriendlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    padding-right: 10px;
+}
+.widgetsfriendlists{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.widgetsfriendlists:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.Postbody img{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 450px;
+    padding-right: 50px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
